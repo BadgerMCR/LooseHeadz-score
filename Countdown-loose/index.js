@@ -1,7 +1,7 @@
 module.exports = {
 	name: "countdown_loose",
 	description: "looseheadz clock",
-	category: "rugby",
+	category: "Rugby",
 	icon: "stopwatch",
 	hasEntries: false,
 	default: {
@@ -35,19 +35,7 @@ module.exports = {
 			description: "Team B name",
 			type: "String"
 		},
-		{
-			name: "color1",  //COLOUR INPUT A
-			description: "Team 1 Colour",
-			type: "ColorPicker"
-		},
-		{
-			name: "color2",  //COLOUR INPUT B
-			description: "Team 2 Colour",
-			type: "ColorPicker"
-		},
-		{
-			color: "rgba(255,255,255,1)"
-		},
+
 		{
 			name: "scoreA",
 			description: "Team A score",
@@ -58,6 +46,59 @@ module.exports = {
 			description: "Team B score",
 			type: "Number"
 		},
+
+		{
+			name: "color1",  //COLOUR INPUT A
+			description: "Team 1 Colour",
+			type: "ColorPicker"
+		},
+		{
+			name: "color2",  //COLOUR INPUT B
+			description: "Team 2 Colour",
+			type: "ColorPicker"
+		},
+
+		{
+			name: "tryH",
+			description: "try card Home",
+			type: "number"
+		},
+
+		{
+			name: "tryA",
+			description: "try card Away",
+			type: "number"
+		},
+
+		{
+			name: "ycH",
+			description: "yellow card Home",
+			type: "number"
+		},
+
+		{
+			name: "ycA",
+			description: "yellow card Away",
+			type: "number"
+		},
+
+		{
+			name: "rcH",
+			description: "red card Home",
+			type: "number"
+		},
+
+		{
+			name: "rcA",
+			description: "red card Away",
+			type: "number"
+		},
+		
+
+		{
+			color: "rgba(255,255,255,1)"
+		},
+
 		{
 			name: "running",
 			description: "Timer is running",

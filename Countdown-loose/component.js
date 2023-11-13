@@ -11,6 +11,12 @@ export default {
 			teamBname:"",
 			secondsRemaining: "",
 			bgColor: "",
+			tryH:"",
+			tryA:"",
+			ycH:"",
+			ycA:"",
+			rcH:"",
+			rcA:"", 
 			target: moment()
 		}
 	},
